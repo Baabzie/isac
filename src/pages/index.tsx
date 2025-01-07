@@ -20,6 +20,35 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="homeText">
+        <h1>
+          Maximera din uthyrning med oss på Smartvärd - Smidigt, Tryggt och
+          lönsamt
+        </h1>
+        <div>
+          <span className="regular-text">
+            Att hyra ut sin bostad kan vara ett fantastiskt sätt att tjäna extra
+            pengar, men det kräver tid, kunskap och engagemang. Med
+          </span>
+          <span className="bold-text"> Smartvärd </span>
+          <span className="regular-text">
+            vid din sida slipper du stressen och kan njuta av alla fördelar med
+            uthyrning utan att behöva tänka på detaljerna.
+          </span>
+
+          <br />
+          <br />
+
+          <span className="regular-text">
+            vill du få mer tid över och tryggheten i att din bostad hanteras av
+            experter?
+          </span>
+          <span className="bold-text">
+            {" "}
+            Låt oss på Smartvärd göra jobbet - och njut av resultatet!
+          </span>
+        </div>
+      </div>
       <div>
         <section id="firstSection">
           <h2>Varför Smartvärd?</h2>

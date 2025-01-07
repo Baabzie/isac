@@ -46,11 +46,29 @@ main {
   padding: 0 4rem;
 }
 
+.homeText {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
 section {
-  height: 100vh;
-  // margin-bottom: 40rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   h2 {
     margin-bottom: 2rem;
+  }
+  ul {
+    li {
+      margin: 1.5rem 0;
+      margin-left: 1rem;
+    }
   }
 }
 
