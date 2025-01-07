@@ -47,8 +47,16 @@ main {
 }
 
 section {
-  margin-bottom: 40rem;
+  height: 100vh;
+  // margin-bottom: 40rem;
   h2 {
     margin-bottom: 2rem;
   }
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.regular-text {
+  display: inline;
 }

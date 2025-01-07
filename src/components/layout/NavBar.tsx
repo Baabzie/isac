@@ -21,7 +21,7 @@ export default function NavBar() {
       <ul>
         <li>
           <button onClick={() => handleButton("firstSection")}>
-            First Section
+            Varför Smartvärd?
           </button>
         </li>
         <li>

@@ -22,21 +22,47 @@ export default function Home() {
       </Head>
       <div>
         <section id="firstSection">
-          <h2>First section</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
-            quos asperiores incidunt est molestias provident ducimus aut
-            reiciendis sunt, inventore aspernatur dolor doloribus a! Veniam
-            nobis, molestiae inventore voluptatum similique aliquid deserunt
-            dolor facilis at, adipisci nam, totam hic. Cumque esse placeat
-            repellendus itaque deleniti. Nulla quaerat sed deleniti ad quia unde
-            minima veritatis! Dicta porro deleniti ipsa distinctio repellendus
-            reiciendis voluptatibus nulla harum accusantium. Id debitis tempore
-            iusto quo mollitia quas vitae. Harum at pariatur dignissimos error
-            quas. Sint, obcaecati, tenetur, id quidem modi quae sit officia
-            maxime nam explicabo recusandae suscipit perspiciatis magnam ratione
-            dignissimos quia provident?
-          </p>
+          <h2>Varför Smartvärd?</h2>
+          <ul>
+            <li>
+              <span className="bold-text">
+                Professionell annons och marknadsföring -{" "}
+              </span>
+              <span className="regular-text">
+                Din bostad presenteras på bästa sätt med proffsiga bilder och en
+                optimerad annons som attraherar fler hyresgäster.
+              </span>
+            </li>
+            <li>
+              <span className="bold-text">Flexibel gästhantering - </span>
+              <span className="regular-text">
+                Allt från bokningar till att välkomna gäster och svara på frågor
+                sköts av din
+              </span>
+              <span className="bold-text"> Smartvärd </span>
+              <span className="regular-text">
+                - med snabb och personlig service som skapar topprecensioner.
+              </span>
+            </li>
+            <li>
+              <span className="bold-text">
+                Full kontroll över pris och kalender -
+              </span>
+              <span className="regular-text"> Din</span>
+              <span className="bold-text"> Smartvärd </span>
+              <span className="regular-text">
+                optimerar priset för att maximera intäkterna samtidigt som du
+                har full tillsyn och kontroll över när din bostad hyrs ut.
+              </span>
+            </li>
+            <li>
+              <span className="bold-text">Städning och underhåll - </span>
+              <span className="regular-text">
+                Efter varje uthyrning säkerställs att din bostad är i perfekt
+                skick - redo för nästa gäst.
+              </span>
+            </li>
+          </ul>
         </section>
         <section id="secondSection">
           <h2>Second section</h2>
