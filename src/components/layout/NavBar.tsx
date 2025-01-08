@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function NavBar() {
   const handleButton = (elementInput: string) => {
     const element = document.getElementById(elementInput);
@@ -20,17 +18,26 @@ export default function NavBar() {
     <nav>
       <ul>
         <li>
-          <button onClick={() => handleButton("firstSection")}>
+          <button
+            className="nav-btn"
+            onClick={() => handleButton("firstSection")}
+          >
             Varför Smartvärd?
           </button>
         </li>
         <li>
-          <button onClick={() => handleButton("secondSection")}>
+          <button
+            className="nav-btn"
+            onClick={() => handleButton("secondSection")}
+          >
             Second Section
           </button>
         </li>
         <li>
-          <button onClick={() => handleButton("thirdSection")}>
+          <button
+            className="nav-btn"
+            onClick={() => handleButton("thirdSection")}
+          >
             Third Section
           </button>
         </li>

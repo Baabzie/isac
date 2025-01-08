@@ -1,7 +1,10 @@
+import NavBar from "./NavBar";
+
 export default function Footer() {
   return (
     <footer>
-      <p>@fakecompany</p>
+      <NavBar />
+      <p>©Smartvärd, 2025</p>
     </footer>
   );
 }
