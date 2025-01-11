@@ -22,7 +22,7 @@ export default function NavBar() {
             className="nav-btn"
             onClick={() => handleButton("firstSection")}
           >
-            Varför Smartvärd?
+            Om oss
           </button>
         </li>
         <li>
@@ -30,17 +30,17 @@ export default function NavBar() {
             className="nav-btn"
             onClick={() => handleButton("secondSection")}
           >
-            Second Section
+            Kontakt
           </button>
         </li>
-        <li>
+        {/* <li>
           <button
             className="nav-btn"
             onClick={() => handleButton("thirdSection")}
           >
             Third Section
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

@@ -67,20 +67,23 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: row;
-    @include tablet {
-      flex-direction: column;
-    }
+    // @include tablet {
+    //   flex-direction: column;
+    // }
     li {
       // margin-right: 2rem;
       .nav-btn {
         padding: 10px 20px;
         font-weight: bold;
         font-size: 18px;
+        @include tablet {
+          padding: 10px 10px;
+        }
       }
-      .nav-btn:hover {
-        font-size: 19px;
-        padding: 8px 16px;
-      }
+      // .nav-btn:hover {
+      //   font-size: 19px;
+      //   padding: 8px 16px;
+      // }
     }
   }
 }
@@ -89,6 +92,9 @@ main {
   max-width: 1000px;
   margin: auto;
   padding: 0 4rem;
+  @include bigMobile {
+    padding: 0 2rem;
+  }
 }
 
 .homeText {
@@ -103,11 +109,15 @@ main {
 
 section {
   min-height: 100vh;
+  margin: 10rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   h2 {
-    margin-bottom: 2rem;
+    margin: 3rem 0 2rem 0;
+  }
+  h3 {
+    margin: 3rem 0 1rem 0;
   }
   ul {
     li {
@@ -115,6 +125,9 @@ section {
       margin-left: 1rem;
     }
   }
+  // span {
+  //   margin: 2rem;
+  // }
 }
 
 .bold-text {

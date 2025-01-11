@@ -55,50 +55,120 @@ export default function Home() {
       </div>
       <div>
         <section id="firstSection">
-          <h2>Varför Smartvärd?</h2>
-          <ul>
-            <li>
-              <span className="bold-text">
-                Professionell annons och marknadsföring -{" "}
-              </span>
-              <span className="regular-text">
-                Din bostad presenteras på bästa sätt med proffsiga bilder och en
-                optimerad annons som attraherar fler hyresgäster.
-              </span>
-            </li>
-            <li>
-              <span className="bold-text">Flexibel gästhantering - </span>
-              <span className="regular-text">
-                Allt från bokningar till att välkomna gäster och svara på frågor
-                sköts av din
-              </span>
-              <span className="bold-text"> Smartvärd </span>
-              <span className="regular-text">
-                - med snabb och personlig service som skapar topprecensioner.
-              </span>
-            </li>
-            <li>
-              <span className="bold-text">
-                Full kontroll över pris och kalender -
-              </span>
-              <span className="regular-text"> Din</span>
-              <span className="bold-text"> Smartvärd </span>
-              <span className="regular-text">
-                optimerar priset för att maximera intäkterna samtidigt som du
-                har full tillsyn och kontroll över när din bostad hyrs ut.
-              </span>
-            </li>
-            <li>
-              <span className="bold-text">Städning och underhåll - </span>
-              <span className="regular-text">
-                Efter varje uthyrning säkerställs att din bostad är i perfekt
-                skick - redo för nästa gäst.
-              </span>
-            </li>
-          </ul>
+          <h2>Om oss</h2>
+          <div>
+            <span className="regular-text">Välkommen till oss på </span>
+            <span className="bold-text">Smartvärd </span>
+            <span className="regular-text">
+              - Din pålitliga partner inom Cohosting! Vi är ett nystartat
+              företag som grundades 2024, med en vision att förändra och
+              förenkla hur fastighetsägare och hyresvärdar hanterar sina
+              korttidsuthyrningar. Vi brinner för att skapa fantastiska
+              upplevelser både för våra kunder och deras gäster, genom att
+              erbjuda skräddarsydda och effektiva lösningar.
+            </span>
+          </div>
+          <div>
+            <h3>Vår resa</h3>
+            <span className="regular-text">
+              Företaget grundades med ett starkt engagemang för fastigheter och
+              hållbara affärslösningar. Med erfarenhet inom projektledning och
+              en passion för gästservice, såg vi på Smartvärd en möjlighet att
+              erbjuda en mer personlig och kvalitativ approach inom cohosting.
+              Målet var klart - att skapa ett företag som inte bara hanterar
+              bokningar och gäster, utan som också erbjuder ett helhetsgrepp som
+              gör att fastighetsägare kan fokusera på det de gör bäst.
+            </span>
+          </div>
+          <div>
+            <h3>Vad gör vi?</h3>
+            <span className="regular-text">
+              På Smartvärd erbjuder vi en rad cohosting-tjänster som sträcker
+              sig från att hantera bokningar och gästkommunikation till att ta
+              hand om städning, underhåll och de små detaljerna som gör en stor
+              skillnad. Vi arbetar nära våra kunder för att skapa en anpassad
+              lösning som passar deras specifika behov - oavsett om du är ny
+              inom korttidsuthyrning eller en erfaren värd.
+            </span>
+            <br />
+            <br />
+            <span className="regular-text">
+              Vår vision är att förenkla och effektivisera hela processen, så
+              att våra kunder kan maximera sina intäkter utan att tumma på
+              kvaliteten. Vi tror på att bygga långsiktiga och hållbara
+              relationer, både med våra kunder och deras gäster, genom att
+              leverera pålitliga och professionella tjänster.
+            </span>
+          </div>
+          <div>
+            <h3>Vårt team</h3>
+            <span className="regular-text">
+              Vi är ett dedikerat team av cohosts som alla delar en passion för
+              fastigheter och gästservice. Vi arbetar dagligen med att optimera
+              och förbättra våra kunders uthyrningar. Vi samarbetar också med
+              ett nätverk av pålitliga samarbetspartners, såsom städföretag och
+              hantverkare, för att kunna erbjuda en komplett tjänst som håller
+              högsta standard.
+            </span>
+          </div>
+          <div>
+            <h3>Vår vision</h3>
+            <span className="regular-text">
+              Vår ambition är att bli den främsta partnern för fastighetsägare
+              som vill optimera sina korttidsuthyrningar, samtidigt som vi
+              sätter gästens upplevelse i fokus. Vi vill erbjuda lösningar som
+              gör cohosting enkelt, effektivt och lönsamt för alla parter.
+            </span>
+          </div>
+          <div>
+            <h3>Varför välja oss?</h3>
+            <ul>
+              <li>
+                <span className="bold-text">Personlig service: </span>
+                <span className="regular-text">
+                  Vi anpassar oss efter dina behov och ser till att varje
+                  uthyrning blir en framgång.
+                </span>
+              </li>
+              <li>
+                <span className="bold-text">Erfarenhet: </span>
+                <span className="regular-text">
+                  Vi har expertkunskap inom både cohosting och gästservice för
+                  att säkerställa hög kvalitet.
+                </span>
+              </li>
+              <li>
+                <span className="bold-text">Helhetslösningar: </span>
+                <span className="regular-text">
+                  Vi tar hand om allt från bokningar till städning och
+                  underhåll, så att du kan slappna av.
+                </span>
+              </li>
+              <li>
+                <span className="bold-text">Engagemang: </span>
+                <span className="regular-text">
+                  Vi är passionerade över att hjälpa dig skapa den bästa möjliga
+                  upplevelsen för dina gäster och maximera dina intäkter.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <br />
+            <br />
+            <span className="regular-text">
+              Vi ser fram emot att få hjälpa dig att ta ditt korttidsuthyrnings
+              projekt till nästa nivå!
+            </span>
+            <br />
+            <br />
+            <span className="regular-text">Vänliga hälsningar,</span>
+            <br />
+            <span className="bold-text">Teamet på Smartvärd</span>
+          </div>
         </section>
         <section id="secondSection">
-          <h2>Second section</h2>
+          <h2>Kontakt</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
             quos asperiores incidunt est molestias provident ducimus aut
@@ -114,7 +184,7 @@ export default function Home() {
             dignissimos quia provident?
           </p>
         </section>
-        <section id="thirdSection">
+        {/* <section id="thirdSection">
           <h2>Third section</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
@@ -130,7 +200,7 @@ export default function Home() {
             maxime nam explicabo recusandae suscipit perspiciatis magnam ratione
             dignissimos quia provident?
           </p>
-        </section>
+        </section> */}
       </div>
     </>
   );
