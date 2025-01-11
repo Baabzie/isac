@@ -4,7 +4,7 @@ export default function NavBar() {
 
     if (element) {
       // Calculate the offset by subtracting 100 pixels from the top of the element
-      const offset = element.offsetTop - 20;
+      const offset = element.offsetTop - 50;
 
       // Scroll to the calculated offset position
       window.scrollTo({
