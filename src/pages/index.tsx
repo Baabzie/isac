@@ -111,8 +111,10 @@ export default function Home() {
               högsta standard.
             </span>
           </div>
+        </section>
+        <section id="secondSection">
+          <h2>Vår vision</h2>
           <div>
-            <h3>Vår vision</h3>
             <span className="regular-text">
               Vår ambition är att bli den främsta partnern för fastighetsägare
               som vill optimera sina korttidsuthyrningar, samtidigt som vi
@@ -167,7 +169,7 @@ export default function Home() {
             <span className="bold-text">Teamet på Smartvärd</span>
           </div>
         </section>
-        <section id="secondSection">
+        <section id="thirdSection">
           <h2>Kontakt</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
@@ -184,23 +186,6 @@ export default function Home() {
             dignissimos quia provident?
           </p>
         </section>
-        {/* <section id="thirdSection">
-          <h2>Third section</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
-            quos asperiores incidunt est molestias provident ducimus aut
-            reiciendis sunt, inventore aspernatur dolor doloribus a! Veniam
-            nobis, molestiae inventore voluptatum similique aliquid deserunt
-            dolor facilis at, adipisci nam, totam hic. Cumque esse placeat
-            repellendus itaque deleniti. Nulla quaerat sed deleniti ad quia unde
-            minima veritatis! Dicta porro deleniti ipsa distinctio repellendus
-            reiciendis voluptatibus nulla harum accusantium. Id debitis tempore
-            iusto quo mollitia quas vitae. Harum at pariatur dignissimos error
-            quas. Sint, obcaecati, tenetur, id quidem modi quae sit officia
-            maxime nam explicabo recusandae suscipit perspiciatis magnam ratione
-            dignissimos quia provident?
-          </p>
-        </section> */}
       </div>
     </>
   );

@@ -30,17 +30,17 @@ export default function NavBar() {
             className="nav-btn"
             onClick={() => handleButton("secondSection")}
           >
-            Kontakt
+            Vår vision
           </button>
         </li>
-        {/* <li>
+        <li>
           <button
             className="nav-btn"
             onClick={() => handleButton("thirdSection")}
           >
-            Third Section
+            Kontakt
           </button>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

@@ -84,6 +84,9 @@ nav {
         @include tablet {
           padding: 10px 10px;
         }
+        @include bigMobile {
+          font-size: 14px;
+        }
       }
       // .nav-btn:hover {
       //   font-size: 19px;
