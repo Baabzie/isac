@@ -2,6 +2,8 @@
 @import "@/styles/colors.scss";
 
 * {
+  //if want to remove blue highlight on click:
+  // -webkit-tap-highlight-color: transparent;
   font-family: "Public Sans", sans-serif;
 }
 
@@ -49,13 +51,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 1rem 0;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  // justify-content: flex-end;
   align-items: flex-end;
   padding: 1rem 0 1rem 0;
   p {
@@ -72,13 +72,9 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: row;
-    // @include tablet {
-    //   flex-direction: column;
-    // }
     li {
-      // margin-right: 2rem;
       .nav-btn {
-        padding: 10px 20px;
+        padding: 20px 20px;
         font-weight: bold;
         font-size: 18px;
         @include tablet {
@@ -88,10 +84,16 @@ nav {
           font-size: 14px;
         }
       }
-      // .nav-btn:hover {
-      //   font-size: 19px;
-      //   padding: 8px 16px;
-      // }
+      .underline {
+        height: 4px;
+        width: 100%;
+      }
+    }
+    li:hover {
+      .underline {
+        // it is possible to make this gradiant.
+        background: linear-gradient(to right, black, black);
+      }
     }
   }
 }
@@ -133,9 +135,6 @@ section {
       margin-left: 1rem;
     }
   }
-  // span {
-  //   margin: 2rem;
-  // }
 }
 
 .bold-text {

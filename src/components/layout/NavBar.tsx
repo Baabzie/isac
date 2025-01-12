@@ -3,10 +3,8 @@ export default function NavBar() {
     const element = document.getElementById(elementInput);
 
     if (element) {
-      // Calculate the offset by subtracting 100 pixels from the top of the element
       const offset = element.offsetTop - 50;
 
-      // Scroll to the calculated offset position
       window.scrollTo({
         top: offset,
         behavior: "smooth",
@@ -24,6 +22,7 @@ export default function NavBar() {
           >
             Om oss
           </button>
+          <div className="underline"></div>
         </li>
         <li>
           <button
@@ -32,6 +31,7 @@ export default function NavBar() {
           >
             Vår vision
           </button>
+          <div className="underline"></div>
         </li>
         <li>
           <button
@@ -40,6 +40,7 @@ export default function NavBar() {
           >
             Kontakt
           </button>
+          <div className="underline"></div>
         </li>
       </ul>
     </nav>
