@@ -87,12 +87,16 @@ nav {
       .underline {
         height: 4px;
         width: 100%;
+        background: transparent; // Default to no background
+        transition: background 0.3s ease; // Smooth transition for hover effect
       }
     }
-    li:hover {
-      .underline {
-        // it is possible to make this gradiant.
-        background: linear-gradient(to right, black, black);
+    // Hover effect only applies for devices with a mouse pointer
+    @media (hover: hover) and (pointer: fine) {
+      li:hover {
+        .underline {
+          background: linear-gradient(to right, black, black);
+        }
       }
     }
   }
