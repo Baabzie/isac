@@ -12,6 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
+  const basePath =
+    process.env.NODE_ENV === "production" ? "/your-repo-name" : "";
   return (
     <>
       <Head>
@@ -25,7 +27,7 @@ export default function Home() {
         />
       </Head>
       <div className="homeText">
-        <img src="/logo.png" alt="bild på Smartvärds logotyp" />
+        <img src={`${basePath}/logo.png`} alt="bild på Smartvärds logotyp" />
         <h1>
           Maximera din uthyrning med oss på Smartvärd - Smidigt, Tryggt och
           lönsamt
