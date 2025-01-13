@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function Header() {
+  const basePath = process.env.NODE_ENV === "production" ? "/isac" : "";
   // const [isScrolled, setIsScrolled] = useState(false);
 
   // useEffect(() => {
@@ -23,8 +24,21 @@ export default function Header() {
   //   };
   // }, []);
 
+  const handleButton = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header>
+      <button onClick={() => handleButton()}>
+        <img
+          src={`${basePath}/logoWithText.png`}
+          alt="bild på Smartvärds logotyp"
+        />
+      </button>
       <NavBar />
     </header>
   );

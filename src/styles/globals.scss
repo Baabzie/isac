@@ -50,7 +50,13 @@ header {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  @include bigMobile {
+    flex-direction: column;
+  }
+  img {
+    height: 100px;
+  }
 }
 
 footer {
@@ -68,10 +74,16 @@ footer {
 
 nav {
   margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    @include bigMobile {
+      justify-content: space-around;
+    }
     li {
       .nav-btn {
         padding: 20px 20px;
