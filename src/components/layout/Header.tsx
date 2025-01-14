@@ -35,7 +35,13 @@ export default function Header() {
     <header>
       <button onClick={() => handleButton()}>
         <img
+          className="desktopImg"
           src={`${basePath}/logoWithText.png`}
+          alt="bild på Smartvärds logotyp"
+        />
+        <img
+          className="mobileImg"
+          src={`${basePath}/logo.png`}
           alt="bild på Smartvärds logotyp"
         />
       </button>

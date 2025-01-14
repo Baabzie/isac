@@ -51,11 +51,20 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  @include bigMobile {
-    flex-direction: column;
-  }
   img {
-    height: 100px;
+    height: 50px;
+    margin: 0.5rem 0 0.5rem 1rem;
+  }
+  .desktopImg {
+    @include bigMobile {
+      display: none;
+    }
+  }
+  .mobileImg {
+    display: none;
+    @include bigMobile {
+      display: block;
+    }
   }
 }
 
@@ -124,12 +133,18 @@ main {
 }
 
 .homeText {
+  // margin-top: 5rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   h1 {
     margin-bottom: 2rem;
+  }
+  img {
+    max-width: 300px;
+    align-self: center;
+    margin: 5rem 0;
   }
 }
 
