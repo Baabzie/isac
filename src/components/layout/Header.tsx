@@ -4,25 +4,20 @@ import Link from "next/link";
 
 export default function Header() {
   const basePath = process.env.NODE_ENV === "production" ? "/isac" : "";
-  // const [isScrolled, setIsScrolled] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const element = document.getElementById("movieList");
-  //     if (element) {
-  //       const offset = element.offsetTop - 200;
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setIsVisible(scrollPosition > 1000); // Adjust threshold as needed
+  };
 
-  //       const scrollTop = window.scrollY;
-  //       setIsScrolled(scrollTop > offset);
-  //     }
-  //   };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
 
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleButton = () => {
     window.scrollTo({
@@ -33,7 +28,10 @@ export default function Header() {
 
   return (
     <header>
-      <button onClick={() => handleButton()}>
+      <button
+        onClick={() => handleButton()}
+        className={isVisible ? "visible" : "hidden"}
+      >
         <img
           className="desktopImg"
           src={`${basePath}/logoWithText.png`}

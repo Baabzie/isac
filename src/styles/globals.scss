@@ -68,6 +68,18 @@ header {
   }
 }
 
+.hidden {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -145,6 +157,7 @@ main {
     max-width: 300px;
     align-self: center;
     margin: 5rem 0;
+    // padding-right: 20px;
   }
 }
 
