@@ -8,7 +8,7 @@ export default function Header() {
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
-    setIsVisible(scrollPosition > 1000); // Adjust threshold as needed
+    setIsVisible(scrollPosition > 200);
   };
 
   useEffect(() => {
