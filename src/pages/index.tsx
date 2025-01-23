@@ -29,7 +29,7 @@ export default function Home() {
         <img src={`${basePath}/logo.png`} alt="bild på Smartvärds logotyp" />
         <h1>
           Maximera din uthyrning med oss på Smartvärd - Smidigt, Tryggt och
-          lönsamt
+          Lönsamt
         </h1>
         <div>
           <span className="regular-text">
