@@ -173,20 +173,14 @@ export default function Home() {
         </section>
         <section id="thirdSection">
           <h2>Kontakt</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae qui
-            quos asperiores incidunt est molestias provident ducimus aut
-            reiciendis sunt, inventore aspernatur dolor doloribus a! Veniam
-            nobis, molestiae inventore voluptatum similique aliquid deserunt
-            dolor facilis at, adipisci nam, totam hic. Cumque esse placeat
-            repellendus itaque deleniti. Nulla quaerat sed deleniti ad quia unde
-            minima veritatis! Dicta porro deleniti ipsa distinctio repellendus
-            reiciendis voluptatibus nulla harum accusantium. Id debitis tempore
-            iusto quo mollitia quas vitae. Harum at pariatur dignissimos error
-            quas. Sint, obcaecati, tenetur, id quidem modi quae sit officia
-            maxime nam explicabo recusandae suscipit perspiciatis magnam ratione
-            dignissimos quia provident?
-          </p>
+          <div>
+            <p>
+              Telefon: <a href="tel:+46707314414">+46 70 731 44 14</a>
+            </p>
+            <p>
+              E-post: <a href="mailto:info@smartvard.se">info@smartvard.se</a>
+            </p>
+          </div>
         </section>
       </div>
     </>
