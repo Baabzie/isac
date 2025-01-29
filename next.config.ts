@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   basePath: isProd ? "/isac" : "",
   reactStrictMode: true,
+  output: "export",
 };
 
 export default nextConfig;

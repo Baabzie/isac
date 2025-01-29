@@ -1,5 +1,5 @@
-@import "@/styles/width.scss";
-@import "@/styles/colors.scss";
+@use "@/styles/width.scss" as *;
+@use "@/styles/colors.scss" as *;
 
 * {
   //if want to remove blue highlight on click:
