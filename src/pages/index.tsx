@@ -12,7 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  const basePath = process.env.NODE_ENV === "production" ? "/isac" : "";
+  // const basePath = process.env.NODE_ENV === "production" ? "/isac" : "";
+  const basePath = process.env.NODE_ENV === "production" ? "" : "";
   return (
     <>
       <Head>
