@@ -52,7 +52,7 @@ export default function Home() {
           </span>
           <span className="bold-text">
             {" "}
-            Låt oss på Smartvärd göra jobbet - och njut av resultatet!
+            Luta dig tillbaka, Smartvärd gör jobbet.
           </span>
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function Home() {
               erbjuda skräddarsydda och effektiva lösningar.
             </span>
           </div>
-          <div>
+          {/* <div>
             <h3>Vår resa</h3>
             <span className="regular-text">
               Företaget grundades med ett starkt engagemang för fastigheter och
@@ -82,7 +82,7 @@ export default function Home() {
               bokningar och gäster, utan som också erbjuder ett helhetsgrepp som
               gör att fastighetsägare kan fokusera på det de gör bäst.
             </span>
-          </div>
+          </div> */}
           <div>
             <h3>Vad gör vi?</h3>
             <span className="regular-text">
@@ -93,7 +93,7 @@ export default function Home() {
               lösning som passar deras specifika behov - oavsett om du är ny
               inom korttidsuthyrning eller en erfaren värd.
             </span>
-            <br />
+            {/* <br />
             <br />
             <span className="regular-text">
               Vår vision är att förenkla och effektivisera hela processen, så
@@ -101,9 +101,9 @@ export default function Home() {
               kvaliteten. Vi tror på att bygga långsiktiga och hållbara
               relationer, både med våra kunder och deras gäster, genom att
               leverera pålitliga och professionella tjänster.
-            </span>
+            </span> */}
           </div>
-          <div>
+          {/* <div>
             <h3>Vårt team</h3>
             <span className="regular-text">
               Vi är ett dedikerat team av cohosts som alla delar en passion för
@@ -113,16 +113,17 @@ export default function Home() {
               hantverkare, för att kunna erbjuda en komplett tjänst som håller
               högsta standard.
             </span>
-          </div>
+          </div> */}
         </section>
         <section id="secondSection">
           <h2>Vår vision</h2>
           <div>
             <span className="regular-text">
-              Vår ambition är att bli den främsta partnern för fastighetsägare
-              som vill optimera sina korttidsuthyrningar, samtidigt som vi
-              sätter gästens upplevelse i fokus. Vi vill erbjuda lösningar som
-              gör cohosting enkelt, effektivt och lönsamt för alla parter.
+              Vår vision är att förenkla och effektivisera hela processen, så
+              att våra kunder kan maximera sina intäkter utan att tumma på
+              kvaliteten. Vi tror på att bygga långsiktiga och hållbara
+              relationer, både med våra kunder och deras gäster, genom att
+              leverera pålitliga och professionella tjänster.
             </span>
           </div>
           <div>
@@ -131,17 +132,17 @@ export default function Home() {
               <li>
                 <span className="bold-text">Personlig service: </span>
                 <span className="regular-text">
-                  Vi anpassar oss efter dina behov och ser till att varje
-                  uthyrning blir en framgång.
+                  Vi anpassar oss efter dina och gästens behov och ser till att
+                  varje uthyrning blir en framgång.
                 </span>
               </li>
-              <li>
+              {/* <li>
                 <span className="bold-text">Erfarenhet: </span>
                 <span className="regular-text">
                   Vi har expertkunskap inom både cohosting och gästservice för
                   att säkerställa hög kvalitet.
                 </span>
-              </li>
+              </li> */}
               <li>
                 <span className="bold-text">Helhetslösningar: </span>
                 <span className="regular-text">
@@ -162,8 +163,7 @@ export default function Home() {
             <br />
             <br />
             <span className="regular-text">
-              Vi ser fram emot att få hjälpa dig att ta ditt korttidsuthyrnings
-              projekt till nästa nivå!
+              Vi ser fram emot att få höra från dig!
             </span>
             <br />
             <br />
