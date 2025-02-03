@@ -1,15 +1,15 @@
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export default function Home() {
   // const basePath = process.env.NODE_ENV === "production" ? "/isac" : "";
@@ -175,9 +175,7 @@ export default function Home() {
         <section id="thirdSection">
           <h2>Kontakt</h2>
           <div>
-            <p>
-              Telefon: <a href="tel:+46707314414">+46 70 731 44 14</a>
-            </p>
+            {/* <p>Telefon: <a href="tel:+46707314414">+46 70 731 44 14</a></p> */}
             <p>
               E-post: <a href="mailto:info@smartvard.se">info@smartvard.se</a>
             </p>
